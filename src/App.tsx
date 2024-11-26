@@ -8,7 +8,7 @@ function App() {
   const [messages, setMessages] = useState<Message[]>([]);
 
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+    <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
       <main className="bg-muted/40 min-h-svh flex justify-center antialiased">
         <Menu setMessages={setMessages} />
 
